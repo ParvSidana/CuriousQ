@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Message from JaneDoe",
+    "content": "Are you free for a quick call later?",
+    "received": "5 minutes ago"
+  },
+  {
+    "title": "Message from CoolKid",
+    "content": "That was an awesome game last night!",
+    "received": "30 minutes ago"
+  },
+  {
+    "title": "Message from BookLover",
+    "content": "Just finished reading that book you recommended!",
+    "received": "3 hours ago"
+  },
+  {
+    "title": "Message from AdventureSeeker",
+    "content": "Want to go hiking this weekend?",
+    "received": "1 day ago"
+  },
+  {
+    "title": "Message from TechGuru",
+    "content": "I saw your latest project. Great work!",
+    "received": "2 days ago"
+  },
+  {
+    "title": "Message from Colleague",
+    "content": "Could you review the document I sent?",
+    "received": "1 hour ago"
+  }
+]

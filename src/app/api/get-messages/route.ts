@@ -31,7 +31,7 @@ export async function GET(request:Request) {
 
         //aggregate pipeline returns an array 
         const user = await UserModel.aggregate([
-            {$match : {id : userId}},
+            {$match : {_id : userId}},
 
             // unwind makes an array to convert into many objects each having a message such that various operations can be performed on it.
             {$unwind : '$messages'},
@@ -43,7 +43,7 @@ export async function GET(request:Request) {
             return Response.json(
                  {
                     success: false ,
-                    message: "User not found"
+                    message: "No Messages found"
                 },
                 {
                     status:401
