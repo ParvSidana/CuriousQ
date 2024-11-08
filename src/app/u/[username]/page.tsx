@@ -150,7 +150,8 @@ const MessagePage = () => {
           </form>
         </Form>
       </div>
-      <div className="space-y-4 my-8">
+      {/* AI INTEGRATION PART */}
+      {/* <div className="space-y-4 my-8">
         <div className="space-y-2">
           <Button
             onClick={fetchSuggestedMessages}
@@ -189,7 +190,7 @@ const MessagePage = () => {
         <Link href={"/sign-up"}>
           <Button>Create Your Account</Button>
         </Link>
-      </div>
+      </div> */}
     </div>
   );
 };
