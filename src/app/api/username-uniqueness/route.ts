@@ -8,6 +8,8 @@ const UsernameQuerySchema = z.object({
     username : usernameValidation
 })
 
+export const dynamic = "force-dynamic"; // Marked route as dynamic
+
 export async function GET(request : Request){
     // console.log(request);
     
