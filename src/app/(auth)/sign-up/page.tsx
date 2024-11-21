@@ -82,7 +82,9 @@ const Page = () => {
         description: res.data.message,
       });
 
-      router.replace(`/verify/${username}`);
+      router.replace("/sign-in");
+
+      // router.replace(`/verify/${username}`);
     } catch (error) {
       console.log("Error while signup ", error);
 

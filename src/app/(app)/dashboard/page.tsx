@@ -59,7 +59,7 @@ const Dashboard = () => {
     } finally {
       setIsSwitchLoading(false);
     }
-  }, [setValue,toast]);
+  }, [setValue, toast]);
 
   const fetchMessages = useCallback(
     async (refresh: boolean = false) => {
@@ -87,7 +87,7 @@ const Dashboard = () => {
         setIsLoading(false);
       }
     },
-    [setMessages, setIsLoading,toast]
+    [setMessages, setIsLoading, toast]
   );
 
   useEffect(() => {

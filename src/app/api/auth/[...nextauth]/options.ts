@@ -35,10 +35,10 @@ export const authOptions : NextAuthOptions = {
                         throw new Error("No user found with this email.")
                     }
 
-                    if(!user.isVerified){
-                        throw new Error("User is not verified.Please verify the user first")
+                    // if(!user.isVerified){
+                    //     throw new Error("User is not verified.Please verify the user first")
 
-                    }
+                    // }
 
                     // password checking --
 
